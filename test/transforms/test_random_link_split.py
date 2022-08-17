@@ -191,3 +191,6 @@ def test_random_link_split_on_undirected_hetero_data():
                                 rev_edge_types=('p', 'p'))
     train_data, val_data, test_data = transform(data)
     assert train_data['p', 'p'].is_undirected()
+
+
+test_random_link_split_on_undirected_hetero_data()
